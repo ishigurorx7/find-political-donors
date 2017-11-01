@@ -11,6 +11,7 @@ Objective:  README file for 'find political donors' project
 
 1. Introduction
 ================
+
 This is a README file that attached with program named 'find_political_donors'.
 The program can be run by running bash script file 'run.sh' which is installed on the
 home directory of the package.
@@ -21,6 +22,7 @@ It does not use any special library.
 
 2. Coverage of project.
 =======================
+
 This released package support following feature, and there are still missing features:
 
 1) Covered 'median value by zip code' feature.
@@ -35,6 +37,7 @@ Their output order is matched with the order of input data.
 
 3. How to run the program?
 ==========================
+
 The program can be run via bash script file named 'run.sh'.
 That file is located on the home directory of this package.
 Here is the command to run:
@@ -56,6 +59,7 @@ for more detail.
 
 4. 'find_political_donors' command argument
 ===========================================
+
 There are several command arguments available for 'find_political_donors' command
 so that you can run with different input file manually.
 
@@ -90,6 +94,7 @@ Program was edited on Emacs and compiled using gcc command.
 
 8. How to implement missing features?
 ====================================
+
 'median val by date' can be implemented using same way.
 For 'sort' feature, it need to used different data structure
 such as balanced tree instead of linked list.
