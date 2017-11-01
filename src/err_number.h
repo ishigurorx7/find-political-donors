@@ -1,0 +1,21 @@
+#ifndef ERR_NUMBER_H
+#define ERR_NUMBER_H
+
+typedef enum {
+  Err_NONE = 0,
+  Err_NULL_DATA,
+  Err_INVALID_CMD_ARG,
+  Err_INVALID_ARG,
+  Err_INVALID_TYPE,
+  Err_INVALID_FNAME,
+  Err_DATA_MISMATCH,
+  Err_FILE_ACC,
+  Err_MALLOC,
+  Err_CLIB_EXEC_ERR,  
+  Err_CANNOT_FIND_OBJ,
+  Err_CANNOT_FIND,
+  Err_CANNOT_CREATE,  
+  Err_CANNOT_HAPPEN,
+} MY_ERR_NUM;
+
+#endif // ERR_NUMBER_H
